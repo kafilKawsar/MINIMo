@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600&family=Ubuntu:wght@300&display=swap');
+*{
+    font-family: 'Playfair Display', serif;
+
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    outline: none;
+    border:none;
+    text-decoration:none;
+    text-transform: capitalize;
+}
+body{
+    font-family: 'Playfair Display', serif;
+}
+ /* header start */
+.container{
+    overflow: hidden;
+    width: 90%;
+    margin: 0 auto;
+  
+}
+.logo{
+    width: 10%;
+    float: left;
+    margin-top: 36px;
+}
+.logo img{
+    width: 100%;
+    
+}
+.navbar{
+    width: 50%;
+    float: right;
+}
+.navbar ul{
+    float: right;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+}
+.navbar ul li a{
+    display: block;
+    text-decoration: none;
+    padding: 40px 50px;
+}
+.navbar a{
+    font-size: 16px;
+    font-weight: lighter;
+    text-transform: uppercase;
+    color: #818181;
+    transition: 0.3s;
+}
+.navbar a:hover{
+    color:#f1f1f1 ;
+}
+.navbar a:last-child{
+    padding-right: 0;
+}
+ /* header end */
+ /* banner start */
+ .banner{
+     width: 90%;
+     margin: 0 auto;
+ }
+ .banner img{
+     width: 100%;
+ }
+ /* banner end */
+ /* perfect start */
+ .perfect{
+     margin: 0 auto;
+ }
+ h4{ font-family: 'Ubuntu', sans-serif;
+    font-weight: lighter;
+    text-transform: uppercase;
+    color:#b4ad9e;
+    font-size: 16px;
+     padding-top: 50px;
+ }
+ h2{
+     font-size: 30px;
+     color: #626262;
+     padding: 20px 0;
+     text-align: center;
+ }
+ p{
+     font-size: 18px;
+     color: #626262;
+     letter-spacing: 1px;
+     line-height: 1.5;
+     word-spacing: 1px;
+     margin-bottom: 30px;
+ }
+ h3{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: lighter;
+    text-transform: uppercase;
+    color:#b4ad9e;
+    font-size: 16px;
+    padding-top: 50px;
+ }
+ /* perfect end */
+ /* blog start */
+ .blog{
+    padding: 50px 0;
+}
+.container2{
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.single-box{
+    width: 40%;
+    float: left;
+  }
+  .single-box img{
+      width: 100%;
+  }
+  .single-box:nth-child(even){
+    margin-left: 289px;
+  }
+.top_title{font-family: 'Ubuntu', sans-serif;
+    font-weight: lighter;
+    text-transform: uppercase;
+    color:#b4ad9e;
+    font-size: 16px;
+    padding-top: 30px;
+  }
+  .newsletter{
+      padding: 50px 0;
+      background-color: #f0f0f0;
+  }
+  .container4{
+      width: 60%;
+      margin: 0 auto;
+  }
+.singup{
+    text-align: center;
+}
+.singup h1{
+    font-size: 30px;
+    margin-bottom: 100px;
+}
+.for_form{
+width: 350px;
+left: 0;
+right: 0;
+margin: 0 auto;
+position: relative;
+}
+.for_form input{
+    width: 290px;
+    border: none;
+    padding: 10px 50px 10px 10px;
+    background: transparent;
+    font-size: 18px;
+    border-bottom: 1px solid black;
+    outline: none;
+}
+.for_form button{
+border: none;
+background: transparent;
+position: absolute;
+top: 10px;
+right: 0;
+}
+/* button start  */
+.btn{
+}
+.container3 {
+    text-align: center;
+    
+    
+  }
+  .container3 button{
+     padding: 13px 16px;
+     font-size: 20px;
+     border: none;
+     border: 1px solid black;
+     background: transparent;
+     transition: .5s;
+  }
+  .container3 button:hover{
+      color: white;
+      background-color: #626262;
+  }
+/* button end  */
+
+/* footer start */
+.footer {margin-top: 50px;
+    padding: 30px 50px;
+    background-color: #efefef;
+}
+.container5{
+    overflow: hidden;
+}
+.terms{
+    float: left;
+}
+
+.terms ul li{
+    list-style: none;
+    float: left;
+    font-size: 14px;
+    color: black;
+    margin: 0 20px;
+}
+
+.links{
+   
+    width: 50%;
+    float: right;
+}
+.links ul li {
+    list-style: none;
+    display: inline-block;
+    float: right;
+    font-size: 14px;
+    color: #626262;
+    margin: 0 20px;
+}
+.links ul li span{
+    float: left;
+}
+.links ul li a {
+    text-decoration: none;
+    transition: .3s;
+    display: inline-block;
+}
+img{
+    max-width: 100%;
+}
+
+.links ul li:last-child a {
+    padding-right: 0;
+}
+ul li{list-style-type: none;
+    display: inline-block;
+    margin: 0 20px;}
+
