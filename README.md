@@ -1,2 +1,2 @@
 # MINIMo
- https://kafil-kawsar.github.io/MINIMo/
+ https://kafil-kawsar77.github.io/MINIMo/
