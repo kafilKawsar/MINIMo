@@ -159,12 +159,14 @@ position: relative;
     border-bottom: 1px solid black;
     outline: none;
 }
-.for_form button{
-border: none;
-background: transparent;
-position: absolute;
-top: 10px;
-right: 0;
+.for_form button {
+    top: 10;
+    border: none;
+    background: transparent;
+    position: absolute;
+    right: 0;
+    padding-right: 31px;
+    padding-top: 15px;
 }
 /* button start  */
 .btn{
